@@ -28,6 +28,8 @@ namespace QuanLyKhachSan
             {
                 Button btn = new Button() { Width =RoomDAO.RoomWidth,Height=RoomDAO.RoomHeight};
                 btn.Text = item.Tenphong + Environment.NewLine + item.Tinhtrangphong;
+                btn.Click += btn_Click;
+                btn.Tag = item;
                 switch (item.Tinhtrangphong)
                 {
                     case "Trống":
@@ -44,8 +46,19 @@ namespace QuanLyKhachSan
                 flpTable.Controls.Add(btn);
             }
         }
+        void showVoucher(string maphong)
+        {
+
+        }
+
         #endregion
         #region Events
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            string maphong = ((sender as Button).Tag as Room).Maphong;
+            showVoucher(maphong);
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 

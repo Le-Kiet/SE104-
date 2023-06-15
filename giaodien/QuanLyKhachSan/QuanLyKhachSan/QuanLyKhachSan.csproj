@@ -54,7 +54,11 @@
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DAO\VoucherDAO.cs" />
+    <Compile Include="DAO\VoucherInfoDAO.cs" />
     <Compile Include="DTO\Room.cs" />
+    <Compile Include="DTO\Voucher.cs" />
+    <Compile Include="DTO\VoucherInfo.cs" />
     <Compile Include="Info_Room.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -209,7 +209,32 @@ select * from TILEPHUTHU
 
 -- Thêm loại phòng
 insert into LOAIPHONG(MaLoaiPhong,TenLoaiPhong,DonGia) values (N'A',N'Loại phòng A',150000)
+insert into LOAIPHONG(MaLoaiPhong,TenLoaiPhong,DonGia) values (N'B',N'Loại phòng B',170000)
+insert into LOAIPHONG(MaLoaiPhong,TenLoaiPhong,DonGia) values (N'C',N'Loại phòng C',200000)
+select * from LOAIPHONG
+
+
 -- Thêm phiếu thuê phòng
+Insert PHIEUTHUEPHONG(MaPhieuThuePhong,MaPhong,DonGiaThue1Ngay,SoKhachTrongPhong,NgayBatDauThue)
+values (N'M001',N'A1',170000,2,getdate())
+Insert PHIEUTHUEPHONG(MaPhieuThuePhong,MaPhong,DonGiaThue1Ngay,SoKhachTrongPhong,NgayBatDauThue)
+values (N'M002',N'A2',170000,2,getdate())
+Insert PHIEUTHUEPHONG(MaPhieuThuePhong,MaPhong,DonGiaThue1Ngay,SoKhachTrongPhong,NgayBatDauThue)
+values (N'M003',N'A3',170000,2,getdate())
+Insert PHIEUTHUEPHONG(MaPhieuThuePhong,MaPhong,DonGiaThue1Ngay,SoKhachTrongPhong,NgayBatDauThue)
+values (N'M004',N'A4',170000,2,getdate())
+
 select * from PHIEUTHUEPHONG
+select * from PHIEUTHUEPHONG where MaPhong =N'A1'
+-- Thêm chi tiết phiếu thuê
+Insert CT_PHIEUTHUEPHONG(MaPhieuThuePhong,MaLoaiKhach,CMND,TenKhachHang,DiaChi)
+values (N'M001',N'IN',12345,N'Kiệt',N'ktx')
+Insert CT_PHIEUTHUEPHONG(MaPhieuThuePhong,MaLoaiKhach,CMND,TenKhachHang,DiaChi)
+values (N'M002',N'OUT',123453,N'Kiệt',N'ktxkhua')
+Insert CT_PHIEUTHUEPHONG(MaPhieuThuePhong,MaLoaiKhach,CMND,TenKhachHang,DiaChi)
+values (N'M003',N'IN',123454,N'Kiệt',N'ktxkhub')
+Insert CT_PHIEUTHUEPHONG(MaPhieuThuePhong,MaLoaiKhach,CMND,TenKhachHang,DiaChi)
+values (N'M004',N'IN',123456,N'Kiệt',N'ktxkhuc')
 select * from CT_PHIEUTHUEPHONG
 
+select * from CT_PHIEUTHUEPHONG where MaPhieuThuePhong = N'M001'
