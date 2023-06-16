@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhachSan.DTO
 {
-    class Voucher
+    public class Voucher
     {
         private string maphieuthuephong;
         private DateTime? ngaybatdauthue;
@@ -18,7 +18,7 @@ namespace QuanLyKhachSan.DTO
         {
             this.Maphieuthuephong = maphieuthuephong;
             this.Ngaybatdauthue = ngaybatdauthue;
-            this.Maphong = maphong;
+            //this.Maphong = maphong;
             this.Dongiathue1ngay = dongiathue1ngay;
             this.Sokhachtrongphong = sokhachtrongphong;
         }
@@ -26,7 +26,7 @@ namespace QuanLyKhachSan.DTO
         {
             this.Maphieuthuephong = row["maphieuthuephong"].ToString();
             this.Ngaybatdauthue = (DateTime?)row["ngaybatdauthue"];
-            this.Maphong = row["maphong"].ToString();
+            //this.Maphong = row["maphong"].ToString();
             this.Dongiathue1ngay = (int)row["dongiathue1ngay"];
             this.Sokhachtrongphong = (int)row["sokhachtrongphong"];
         }

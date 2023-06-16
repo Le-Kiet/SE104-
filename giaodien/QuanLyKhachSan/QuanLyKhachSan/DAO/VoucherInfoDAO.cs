@@ -21,7 +21,7 @@ namespace QuanLyKhachSan.DAO
                 return VoucherInfoDAO.instance;
             }
 
-            set
+            private set
             {
                 VoucherInfoDAO.instance = value;
             }

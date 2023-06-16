@@ -23,3 +23,16 @@ C:\Users\Admin\Desktop\soft_ware_engineer\SE104_project\giaodien\QuanLyKhachSan\
 C:\Users\Admin\Desktop\soft_ware_engineer\SE104_project\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 C:\Users\Admin\Desktop\soft_ware_engineer\SE104_project\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 C:\Users\Admin\Desktop\soft_ware_engineer\SE104_project\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Info_Room.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.admin.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Info_Room.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Form1.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.LoginForm.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TableManager.resources
+C:\Users\Admin\Desktop\SE104-\SE104-\giaodien\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache

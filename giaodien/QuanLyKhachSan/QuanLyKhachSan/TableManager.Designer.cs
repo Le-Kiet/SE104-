@@ -47,10 +47,10 @@
             this.flpTable = new System.Windows.Forms.FlowLayoutPanel();
             this.btnBookRoom = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listVoucher1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
@@ -241,40 +241,40 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.listView1);
+            this.panel1.Controls.Add(this.listVoucher1);
             this.panel1.Location = new System.Drawing.Point(693, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(311, 460);
             this.panel1.TabIndex = 4;
             // 
-            // columnHeader2
+            // listVoucher1
             // 
-            this.columnHeader2.Text = "Mã loại khách";
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Mã phiếu thuê";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "CMND";
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.Color.White;
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listVoucher1.BackColor = System.Drawing.Color.White;
+            this.listVoucher1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(3, 270);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(305, 187);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listVoucher1.GridLines = true;
+            this.listVoucher1.Location = new System.Drawing.Point(3, 270);
+            this.listVoucher1.Name = "listVoucher1";
+            this.listVoucher1.Size = new System.Drawing.Size(305, 187);
+            this.listVoucher1.TabIndex = 0;
+            this.listVoucher1.UseCompatibleStateImageBehavior = false;
+            this.listVoucher1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Mã phiếu thuê";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Mã loại khách";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "CMND";
             // 
             // columnHeader4
             // 
@@ -334,7 +334,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnBookRoom;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listVoucher1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;

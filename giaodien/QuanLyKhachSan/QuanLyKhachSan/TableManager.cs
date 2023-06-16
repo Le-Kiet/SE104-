@@ -46,9 +46,15 @@ namespace QuanLyKhachSan
                 flpTable.Controls.Add(btn);
             }
         }
-        void showVoucher(string maphong)
+        void showVoucher(string maphieuthuephong)
         {
-
+          List<VoucherInfo> listVoucherInfo = VoucherInfoDAO.Instance.GetListVoucherInfo(VoucherDAO.Instance.GetUncheckVoucherByRoom(maphieuthuephong));
+            foreach (VoucherInfo item in listVoucherInfo)
+            {
+                ListViewItem lsvItem = new ListViewItem(item.Maphieuthuephong.ToString());
+                lsvItem.SubItems.Add(item.Tenkhachhang.ToString());
+                listVoucher1.Items.Add(lsvItem);
+            }
         }
 
         #endregion
@@ -56,8 +62,8 @@ namespace QuanLyKhachSan
 
         private void btn_Click(object sender, EventArgs e)
         {
-            string maphong = ((sender as Button).Tag as Room).Maphong;
-            showVoucher(maphong);
+            string RoomID = ((sender as Button).Tag as Room).Maphong;
+            showVoucher(RoomID);
         }
         private void label1_Click(object sender, EventArgs e)
         {
